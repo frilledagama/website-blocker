@@ -1,0 +1,29 @@
+{
+    "name": "Digital Wellbeing",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "default_locale": "en",
+    "description": "Website blocker with time allocated per website. Loading a user specified list of domains",
+
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "32": "images/icon32.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default title": "Digital Wellbeing"
+    },
+
+    "author": "frilledagama",
+
+    "background": {
+        "presistent": false
+    },
+
+    "permissions": [
+        "tabs",
+        "*://*/*"
+    ]
+}
