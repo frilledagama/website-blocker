@@ -19,11 +19,15 @@
     "author": "frilledagama",
 
     "background": {
+        "scripts": ["background.js"],
         "presistent": false
     },
 
     "permissions": [
+        "storage",
         "tabs",
+        "webRequest",
+        "webRequestBlocking",
         "*://*/*"
     ]
 }
