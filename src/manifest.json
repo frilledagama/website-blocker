@@ -20,7 +20,7 @@
 
     "background": {
         "scripts": ["background.js"],
-        "presistent": false
+        "presistent": true
     },
 
     "permissions": [
@@ -28,6 +28,6 @@
         "tabs",
         "webRequest",
         "webRequestBlocking",
-        "*://*/*"
+        "<all_urls>"
     ]
 }
